@@ -1,0 +1,54 @@
+{
+  "name": "hybirdapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/HybirdApp.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode production ",
+    "dev": "webpack-dev-server --open http://localhost:9090 --mode development ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sexyHuang/HybirdApp.git"
+  },
+  "keywords": [
+    "hybirdApp"
+  ],
+  "author": "Sexy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sexyHuang/HybirdApp/issues"
+  },
+  "homepage": "https://github.com/sexyHuang/HybirdApp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "vconsole": "^3.2.0"
+  }
+}
